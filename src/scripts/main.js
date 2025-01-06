@@ -37,7 +37,7 @@ function updateTable(sortedRows) {
 // ! DONE
 document.addEventListener('click', (e) => {
   const columnIndex = e.target.cellIndex;
-  const tableHeaders = e.target.closest('table th');
+  const tableHeaders = e.target.closest('table');
 
   if (!tableHeaders) {
     return;
